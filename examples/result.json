@@ -1,0 +1,50 @@
+{
+  "appointments": [
+    {
+      "patient_key": "a6542090d42cf7d3",
+      "clinic": "North",
+      "day": "2026-09-01",
+      "status": "COMPLETED"
+    },
+    {
+      "patient_key": "ea1bb38a8f606e1d",
+      "clinic": "North",
+      "day": "2026-09-01",
+      "status": "NO_SHOW"
+    },
+    {
+      "patient_key": "568bc4cc8d0ade83",
+      "clinic": "South",
+      "day": "2026-09-01",
+      "status": "CANCELLED"
+    },
+    {
+      "patient_key": "eed2e06df5ea7f3c",
+      "clinic": "South",
+      "day": "2026-09-01",
+      "status": "COMPLETED"
+    }
+  ],
+  "metrics": [
+    {
+      "clinic": "North",
+      "completed": 1,
+      "no_show": 1,
+      "cancelled": 0,
+      "no_show_rate": 0.5
+    },
+    {
+      "clinic": "South",
+      "completed": 1,
+      "no_show": 0,
+      "cancelled": 1,
+      "no_show_rate": 0
+    }
+  ],
+  "quarantine": [
+    {
+      "source_index": 4,
+      "reason": "invalid_appointment"
+    }
+  ]
+}

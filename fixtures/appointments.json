@@ -1,0 +1,7 @@
+[
+  { "appointment_id": "A", "patient_id": "SYN-001", "patient_name": "Synthetic One", "clinic": "North", "start_time": "2026-09-01T09:00:00Z", "status": "COMPLETED" },
+  { "appointment_id": "B", "patient_id": "SYN-002", "patient_name": "Synthetic Two", "clinic": "North", "start_time": "2026-09-01T10:00:00Z", "status": "NO_SHOW" },
+  { "appointment_id": "C", "patient_id": "SYN-003", "patient_name": "Synthetic Three", "clinic": "South", "start_time": "2026-09-01T11:00:00Z", "status": "CANCELLED" },
+  { "appointment_id": "D", "patient_id": "SYN-004", "patient_name": "Synthetic Four", "clinic": "South", "start_time": "2026-09-01T12:00:00Z", "status": "COMPLETED" },
+  { "appointment_id": "E", "patient_id": "SYN-005", "patient_name": "Synthetic Five", "clinic": "North", "start_time": "bad", "status": "NO_SHOW" }
+]
